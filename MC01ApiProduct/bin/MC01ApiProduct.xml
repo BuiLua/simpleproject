@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MC01ApiProduct</name>
+    </assembly>
+    <members>
+        <member name="T:MC01ApiProduct.Controllers.CategoriesController">
+            <summary>
+            APIs for category
+            </summary>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.CategoriesController.#ctor(MC01ApiProduct.Services.Interfaces.ICategoryService)">
+            <summary>
+            
+            </summary>
+            <param name="categoryService"></param>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.CategoriesController.Get">
+            <summary>
+            Get list categories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.CategoriesController.Post(MC01ApiProduct.Models.CategoryInputModel)">
+            <summary>
+            Add new category
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.CategoriesController.Delete(System.Int32)">
+            <summary>
+            Delete a category
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.CategoriesController.Put(System.Int32,MC01ApiProduct.Models.CategoryInputModel)">
+            <summary>
+            Update a category
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MC01ApiProduct.Controllers.ProductsController">
+            <summary>
+            APIs for product
+            </summary>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.ProductsController.#ctor(MC01ApiProduct.Services.Interfaces.IProductService)">
+            <summary>
+            
+            </summary>
+            <param name="productService"></param>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.ProductsController.Get">
+            <summary>
+            Get list products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.ProductsController.Post(MC01ApiProduct.Models.ProductInputModel)">
+            <summary>
+            Add new product
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.ProductsController.Delete(System.Int32)">
+            <summary>
+            Delete a product
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.ProductsController.Put(System.Int32,MC01ApiProduct.Models.ProductInputModel)">
+            <summary>
+            Update a product
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MC01ApiProduct.Controllers.UserProductsController">
+            <summary>
+            APIs for user likes product
+            </summary>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.UserProductsController.#ctor(MC01ApiProduct.Services.Interfaces.IUserService)">
+            <summary>
+            
+            </summary>
+            <param name="userService"></param>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.UserProductsController.Post(MC01ApiProduct.Models.UserLikeProductInputModel)">
+            <summary>
+            User likes product
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MC01ApiProduct.Controllers.UsersController">
+            <summary>
+            APIs for user
+            </summary>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.UsersController.#ctor(MC01ApiProduct.Services.Interfaces.IUserService)">
+            <summary>
+            
+            </summary>
+            <param name="userService"></param>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.UsersController.Get">
+            <summary>
+            Get list users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.UsersController.Post(MC01ApiProduct.Models.UserInputModel)">
+            <summary>
+            Add new user
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.UsersController.Delete(System.Int32)">
+            <summary>
+            Delete an user
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MC01ApiProduct.Controllers.UsersController.Put(System.Int32,MC01ApiProduct.Models.UserInputModel)">
+            <summary>
+            Update an user
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MC01ApiProduct.DependencyResolution.StructureMapDependencyScope">
+            <summary>
+            The structure map dependency scope.
+            </summary>
+        </member>
+        <member name="T:MC01ApiProduct.DependencyResolution.StructureMapWebApiDependencyResolver">
+            <summary>
+            The structure map dependency resolver.
+            </summary>
+        </member>
+        <member name="M:MC01ApiProduct.DependencyResolution.StructureMapWebApiDependencyResolver.#ctor(StructureMap.IContainer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MC01ApiProduct.DependencyResolution.StructureMapWebApiDependencyResolver"/> class.
+            </summary>
+            <param name="container">
+            The container.
+            </param>
+        </member>
+        <member name="M:MC01ApiProduct.DependencyResolution.StructureMapWebApiDependencyResolver.BeginScope">
+            <summary>
+            The begin scope.
+            </summary>
+            <returns>
+            The System.Web.Http.Dependencies.IDependencyScope.
+            </returns>
+        </member>
+        <member name="T:MC01ApiProduct.DependencyResolution.StructureMapWebApiDependencyScope">
+            <summary>
+            The structure map web api dependency scope.
+            </summary>
+        </member>
+    </members>
+</doc>
