@@ -1,0 +1,213 @@
+body {
+	font-family: Tahoma;
+	font-size: 13px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.nav {
+	background-color: yellow;
+}
+
+.nav-content {
+	width: 100%;
+	height: 30px;
+}
+
+.nav-logo {
+	width: 30%;
+}
+
+.nav-logo img {
+	margin-right: 5%;
+	width: 40%;
+	height: auto;
+}
+
+.search {
+	width: 35%;
+	margin-top: 24px;
+}
+
+.login {
+	width: 35%;
+	margin-top: 10px;
+}
+
+.search input {
+	width: cacl(100% - 100px);
+	padding: 5px 10px;
+}
+
+.search button {
+	width: 70px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+
+.nav-logo,
+.search,
+.login {
+	float: left;
+}
+
+.login ul li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+	border: 1px solid black;
+	padding: 5px; 
+	background-color: #00FA9A;
+	color: white;
+}
+
+.login ul li a {
+	text-decoration: none;
+
+}
+
+.menu-top {
+	background-color: black;
+	height: 40px;
+}
+
+.menu-top ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu-top ul li {
+	list-style: none;
+	float: left;
+}
+
+.menu-top ul li a {
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	padding: 0 20px;
+	border-right: 1px solid #ccc;
+}
+
+.menu-top ul li a.active {
+	background-color: #1949b5;
+}
+
+
+.banner {
+	width: 100%;
+}
+
+.banner img {
+	width: 100%;
+	height: auto;
+}
+
+.main {
+	margin-top: 5px;
+}
+
+.left {
+	width: 70%;
+	float: left;
+	min-height: 400px;
+}
+
+.left-item {
+	margin: 0;
+	padding: 0;
+}
+
+.left-item img {
+	width: 30%;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+.left-item h2 {
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+.left div {
+	clear: left;
+}
+
+.right {
+	width: 30%;
+	float: left;
+}
+
+.right-detail-top {
+	background: #194d57;
+	height: 40px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 14px;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.right-detail-center {
+	margin-bottom: 40px;
+}
+
+.icon-text i,
+.icon-text span {
+	margin-right: 10px;
+	margin-top: 12px;
+}
+
+.icon-text {
+	height: 40px;
+	border-bottom: 1px solid blue;
+	padding-bottom: 2px;
+	font-size: 15px;
+}
+
+.right-detail img {
+	width: 100%;
+}
+
+.footer{
+	width: 100%;
+	height: 40px;
+	background-color: #111;
+	text-align: center;
+}
+
+.footer p {
+	margin: 0;
+	color: white;
+	line-height: 40px;
+}
+
+.footer b {
+	color: #b06010;
+	font-weight: 200;
+	text-decoration: underline;
+}
+
+/*@media screen and (max-width: 600px){
+	.menu-top {
+		display: block;
+	}
+
+	.menu-top ul {
+		display: block;
+	}
+
+	.menu-top ul li{
+		border-left: none;
+	}
+
+}*/
+
